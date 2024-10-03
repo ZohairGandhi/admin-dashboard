@@ -6,7 +6,7 @@
 body {
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 4fr;
     font-family: 'Roboto';
 }
 
@@ -33,4 +33,68 @@ body {
 
 .sidebar ul li {
     margin: 1rem 0;
+}
+
+.main-area {
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr;
+    background-color: #e2e8f0;
+}
+
+.header {
+    grid-row: 1 / 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: #ffffff;
+    padding: 0.3rem 3rem;
+}
+
+.row-1 {
+    grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: min-content max-content;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row-1 input {
+    appearance: none;
+    width: 75ch;
+    height: 1.5rem;
+    border-radius: 12px;
+    border: none;
+    background-color: #e2e8f0;
+}
+
+.row-1 p {
+    padding: 0 3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.row-2 {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row-2 p {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.row-2 .col-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3ch;
+}
+
+.row-2 .col-2 button {
+    padding: 0.5rem 2ch;
+    border-radius: 16px;
+    border: none;
+    background-color: #1992d4;
+    color: white;
 }
