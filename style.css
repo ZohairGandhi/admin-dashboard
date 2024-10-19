@@ -22,7 +22,7 @@ body {
     font-weight: 500;
 }
 
-.sidebar>p {
+.sidebar > p {
     font-size: 1.5rem;
     font-weight: 600;
 }
@@ -110,7 +110,8 @@ body {
     grid-column: 1 / 2;
 }
 
-.projects-sec > p:first-child {
+.projects-sec > p:first-child,
+.announcements-sec > p:first-child {
     font-size: 1.1rem;
     font-weight: 600;
     margin: 1.5rem 0 0.5rem 5ch;
@@ -144,6 +145,31 @@ body {
 
 .announcements-sec {
     grid-row: 1 / 2;
+}
+
+.announcements-sec > p:first-child {
+    margin: 1.5rem 0 0.5rem 0;
+}
+
+.announcement-cards {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1.5rem 2.5rem;
+    margin-right: 2rem;
+}
+
+.announcement {
+    margin: 1rem 0;
+}
+
+.announcement > p:first-child {
+    font-size: 0.9rem;
+    font-weight: 500;
+    justify-items: start;
+}
+
+.announcement > p:nth-child(2) {
+    font-size: 0.8rem;
 }
 
 .trend-sec {
