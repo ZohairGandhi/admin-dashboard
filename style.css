@@ -111,7 +111,8 @@ body {
 }
 
 .projects-sec > p:first-child,
-.announcements-sec > p:first-child {
+.announcements-sec > p:first-child,
+.trend-sec > p:first-child {
     font-size: 1.1rem;
     font-weight: 600;
     margin: 1.5rem 0 0.5rem 5ch;
@@ -147,28 +148,33 @@ body {
     grid-row: 1 / 2;
 }
 
-.announcements-sec > p:first-child {
+.announcements-sec > p:first-child,
+.trend-sec > p:first-child {
     margin: 1.5rem 0 0.5rem 0;
 }
 
-.announcement-cards {
+.announcement-cards,
+.trend-cards {
     background-color: white;
     border-radius: 8px;
     padding: 1.5rem 2.5rem;
     margin-right: 2rem;
 }
 
-.announcement {
+.announcement,
+.trend {
     margin: 1rem 0;
 }
 
-.announcement > p:first-child {
+.announcement > p:first-child,
+.trend > p:first-child {
     font-size: 0.9rem;
     font-weight: 500;
     justify-items: start;
 }
 
-.announcement > p:nth-child(2) {
+.announcement > p:nth-child(2),
+.trend > p:nth-child(2) {
     font-size: 0.8rem;
 }
 
