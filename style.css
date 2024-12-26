@@ -139,6 +139,11 @@ body {
   font-weight: 500;
 }
 
+.cards-sec-2 {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+
 .announcements-sec {
   grid-row: 1 / 2;
 }
